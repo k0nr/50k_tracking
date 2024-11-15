@@ -1,5 +1,30 @@
 <style>
 
+
+@keyframes bar-fill {
+    from {
+    width: 0%;
+    }
+
+    to {
+
+    with: 100%;
+
+    }
+
+}
+
+
+@font-face {
+  font-family: 'AbolitionTest';
+  src:url('fonts/AbolitionTest-Regular.otf')
+}
+
+@font-face {
+  font-family: 'LeagueMono';
+  src:url('fonts/LeagueMono-Medium.ttf')
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -47,14 +72,18 @@ color:#fff200;
 padding: 2%;
 font-family: monospace;
 width: 96%;
-height: 90%;
+height: 96%;
 }
 
 .header {
-background-color: green;
+background-color: #00af40;
 text-align: center;
 width: 100%;
 font-size: 40;
+font-family: AbolitionTest,Courier,monospace;
+border-radius: 15px;
+
+
 
 }
 
@@ -63,8 +92,9 @@ font-size: 40;
 #progressContainer {
   width: 100%;
   background-color: #cccccc;
-  border-radius: 5px;
+  border-radius: 15px;
   overflow: hidden;
+  font-family: AbolitionTest,Courier,monospace;
   position: relative;
 }
 
@@ -80,8 +110,19 @@ font-size: 40;
     position: absolute;
     bottom: 5%;
     left: 3%;
-
+    font-family:LeagueMono;
 }
+
+
+.logo {
+  position: absolute;
+  bottom: 220px;
+  right: 10%;
+  font-family:LeagueMono;
+  width: 5%;
+  height: 5%;
+}
+
 .percentage {
   position: absolute;
   right: 50%;
@@ -92,23 +133,6 @@ font-size: 40;
   padding-right: 5px;
 }
 
-@keyframes bar-fill {
-    from {
-    width: 0%;
-    }
 
-    to {
-
-    with: 100%;
-
-    }
-
-}
-
-
-@font-face {
-  font-family: 'League-Mono';
-  src:url('fonts/')
-}
 </style>
 
