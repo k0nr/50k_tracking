@@ -1,63 +1,17 @@
 <style>
 
 
-@keyframes bar-fill {
-    from {
-    width: 0%;
-    }
-
-    to {
-
-    with: 100%;
-
-    }
-
-}
 
 
-@font-face {
-  font-family: 'AbolitionTest';
-  src:url('fonts/AbolitionTest-Regular.otf')
-}
 
-@font-face {
-  font-family: 'LeagueMono';
-  src:url('fonts/LeagueMono-Medium.ttf')
-}
+
 
 * {
     padding: 0;
     margin: 0;
 }
 
-/* portrait mode warning */
-#warning-message { display: none; 
-background-color: black;
-color:white;
-font-size:30px;
-}
-
-@media only screen and (orientation:portrait){
-.outer { display:none; }
-#warning-message { display:block; }
-
- }
-
-@media only screen and (orientation:landscape){
-        #warning-message { display:none; }
-
-    }
     
-body {
-    cursor: url('images/cursor.cur'), default;
-    
-}
-    
-    
-
-
-
-/* youtube */
 
 
 .outer {
@@ -72,7 +26,7 @@ color:#fff200;
 padding: 2%;
 font-family: monospace;
 width: 96%;
-height: 96%;
+height: 92%;
 }
 
 .header {
@@ -82,9 +36,6 @@ width: 100%;
 font-size: 40;
 font-family: AbolitionTest,Courier,monospace;
 border-radius: 15px;
-
-
-
 }
 
 
@@ -133,6 +84,27 @@ border-radius: 15px;
   padding-right: 5px;
 }
 
+@keyframes bar-fill {
+    from {
+    width: 0%;
+    }
 
+    to {
+
+    with: 100%;
+
+    }
+
+}
+
+@font-face {
+  font-family: 'AbolitionTest';
+  src:url('fonts/AbolitionTest-Regular.otf')
+}
+
+@font-face {
+  font-family: 'LeagueMono';
+  src:url('fonts/LeagueMono-Medium.ttf')
+}
 </style>
 
