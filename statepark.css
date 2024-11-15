@@ -1,0 +1,114 @@
+<style>
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* portrait mode warning */
+#warning-message { display: none; 
+background-color: black;
+color:white;
+font-size:30px;
+}
+
+@media only screen and (orientation:portrait){
+.outer { display:none; }
+#warning-message { display:block; }
+
+ }
+
+@media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+
+    }
+    
+body {
+    cursor: url('images/cursor.cur'), default;
+    
+}
+    
+    
+
+
+
+/* youtube */
+
+
+.outer {
+/display: flex;
+flex: 1 100%;
+flex-flow: row wrap;
+align-items: center;
+
+
+background-color:black;
+color:#fff200;
+padding: 2%;
+font-family: monospace;
+width: 96%;
+height: 90%;
+}
+
+.header {
+background-color: green;
+text-align: center;
+width: 100%;
+font-size: 40;
+
+}
+
+
+/* CSS */
+#progressContainer {
+  width: 100%;
+  background-color: #cccccc;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+#progressBar {
+  width: 50%;
+  height: 46px;
+  background-color: #d720ef;
+  animation: 10s ease-in 8s infinite normal bar-fill;
+  /* transition: width 2s ease 0s; */
+}
+
+.donate_button {
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+
+}
+.percentage {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 42px;
+  color: white;
+  padding-right: 5px;
+}
+
+@keyframes bar-fill {
+    from {
+    width: 0%;
+    }
+
+    to {
+
+    with: 100%;
+
+    }
+
+}
+
+
+@font-face {
+  font-family: 'League-Mono';
+  src:url('fonts/')
+}
+</style>
+
