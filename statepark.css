@@ -15,9 +15,9 @@
 
 
 .outer {
-/display: flex;
+/* display: flex;
 flex: 1 100%;
-flex-flow: row wrap;
+flex-flow: row wrap; */
 align-items: center;
 
 background-image:url(images/IMG_4077.jpg);
@@ -37,13 +37,13 @@ height: 92%;
 background-color: #00af40;
 text-align: center;
 width: 100%;
-font-size: 70;
+font-size: 95;
 font-family: AbolitionTest,Courier,monospace;
 border-radius: 15px;
 }
 
 
-/* CSS */
+/* CSS GENERATED FROM THE PROGRESSBARGENERATOR.COM */
 #progressContainer {
   width: 100%;
   background-color: #cccccc;
@@ -54,28 +54,12 @@ border-radius: 15px;
 }
 
 #progressBar {
-  width: 50%;
+/* UPDATE THIS */
+  width: 3%;
   height: 66px;
   background-color: #d720ef;
   animation: 10s ease-in 8s infinite normal bar-fill;
   /* transition: width 2s ease 0s; */
-}
-
-.donate_button {
-    position: absolute;
-    bottom: 5%;
-    left: 3%;
-    font-family:LeagueMono;
-}
-
-
-.logo {
-  position: absolute;
-  bottom: 220px;
-  right: 10%;
-  font-family:LeagueMono;
-  width: 5%;
-  height: 5%;
 }
 
 .percentage {
@@ -88,14 +72,44 @@ border-radius: 15px;
   padding-right: 5px;
 }
 
+/* end of automated CSS from the generator */
+
+
+.begging {
+  position: absolute;
+  top: 50%;
+  z-index:3;
+
+}
+
+.donate_button {
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-family:LeagueMono;
+    font-size:20;
+}
+
+
+.logo {
+  position: absolute;
+  bottom: 220px;
+  right: 10%;
+  font-family:LeagueMono;
+  width: 5%;
+  height: 5%;
+}
+
+
+
 @keyframes bar-fill {
     from {
     width: 0%;
     }
 
     to {
-
-    with: 100%;
+/* UPDATE THIS */
+    width: 3%;
 
     }
 
