@@ -20,6 +20,10 @@ flex: 1 100%;
 flex-flow: row wrap;
 align-items: center;
 
+background-image:url(images/IMG_4077.jpg);
+background-size:contain;
+background-repeat:no-repeat;
+
 
 background-color:black;
 color:#fff200;
