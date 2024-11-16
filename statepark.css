@@ -60,7 +60,7 @@ border-radius: 15px;
   width: 4%;
   height: 66px;
   background-color: #d720ef;
-  animation: 10s ease-in 8s infinite normal bar-fill;
+  animation: 5s ease-out 5s infinite normal bar-fill;
   /* transition: width 2s ease 0s; */
 }
 
