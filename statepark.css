@@ -79,8 +79,13 @@ border-radius: 15px;
 
 #begging {
   position: relative;
-  top: 100px;
+  top: 50px;
   z-index:3;
+  width: 60%;
+  left: 20%;
+  font-size: 28px;
+  background-color: rgba(0, 0, 0, 0.20);
+  text-align: center;
 
 }
 
